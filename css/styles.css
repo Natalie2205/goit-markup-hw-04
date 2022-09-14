@@ -11,6 +11,7 @@
     --hover-button-color: #188CE8;
     --header-border-color: #ECECEC;
     --portfolio-border-color: #EEEEEE;
+    --background-hero-color:#C4C4C4;
 }
 
 h1,
@@ -143,7 +144,16 @@ img {
     margin-right: 50px;
 }
 
-.hero,
+.menu-item .link {
+    display: flex;
+    align-items: center;
+    }
+
+.menu-icon{
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 .footer {
     background-color: var(--secondary-bg-color)
 }
@@ -152,6 +162,14 @@ img {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--background-hero-color);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-title {
